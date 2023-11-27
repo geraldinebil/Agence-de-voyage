@@ -12,12 +12,23 @@ body {
 h1 {
     font-family: 'Crete Round', serif;
     font-size: 45px;
-    color: #444; 
+    color: #444;
 }
 
-h2{
+h2 {
     color: #444;
     font-size: 55px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #444;
+
+}
+
+p {
+    line-height: 20px;
+    color: #777;
 }
 
 ul {
@@ -47,18 +58,23 @@ header {
 header h1 {
     float: left;
     margin-top: 32px;
-    
+
 }
 
 header nav {
     float: right;
-    margin-top: 50px;   
+    margin-top: 50px;
 }
 
 header nav ul li {
     display: inline-block;
     float: left;
-    
+
+}
+
+a:hover{
+    color: #6dd1ff;
+
 }
 
 header nav ul li a {
@@ -68,12 +84,12 @@ header nav ul li a {
 }
 
 /* section main-image */
-#main-image{
-height: 580px;
-background:url(images/main.jpg) center;
+#main-image {
+    height: 580px;
+    background: url(images/main.jpg) center;
 }
 
-#main-image h2{
+#main-image h2 {
     font-weight: normal;
     text-transform: uppercase;
     text-align: center;
@@ -81,7 +97,7 @@ background:url(images/main.jpg) center;
     margin-bottom: 20px;
 }
 
-.button-1{
+.button-1 {
     display: block;
     width: 120px;
     height: 50px;
@@ -92,4 +108,43 @@ background:url(images/main.jpg) center;
     line-height: 50px;
     text-align: center;
     border-radius: 3px;
+}
+
+.button-1:hover{
+    background: #0298dd;
+}
+
+/* STEPS */
+#steps ul {
+    margin: 80px 0;
+}
+
+#steps ul li {
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#steps h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#steps p {
+    margin-bottom: 20px;
+}
+
+#step-1 {
+    background: url(images/steps-icon-1.png) no-repeat top center;
+
+}
+
+#step-2 {
+    background: url(images/steps-icon-2.png) no-repeat top center;
+}
+
+#step-3 {
+    background: url(images/steps-icon-3.png) no-repeat top center;
 }
